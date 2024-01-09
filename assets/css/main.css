@@ -2586,65 +2586,74 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-/* Image */
-
-	.image {
-		border: 0;
-		display: inline-block;
-		position: relative;
+	.profile {
+		height: 25%;
+		width: 25%;
 	}
 
-		.image img {
-			display: block;
-		}
+/* Image */
 
-		.image.left, .image.right {
-			max-width: 40%;
-		}
+#profile_image {
+	border-radius: 99%;
+}
 
-			.image.left img, .image.right img {
-				width: 100%;
-			}
+.image {
+	border: 0;
+	display: inline-block;
+	position: relative;
+}
 
-		.image.left {
-			float: left;
-			margin: 0 2rem 2rem 0;
-			top: 0.75rem;
-		}
+	.image img {
+		display: block;
+	}
 
-		.image.right {
-			float: right;
-			margin: 0 0 2rem 2rem;
-			top: 0.75rem;
-		}
+	.image.left, .image.right {
+		max-width: 40%;
+	}
 
-		.image.fit {
-			display: block;
-			margin: 2.5rem 0;
+		.image.left img, .image.right img {
 			width: 100%;
 		}
 
-			.image.fit:first-child {
-				margin-top: 0;
-			}
+	.image.left {
+		float: left;
+		margin: 0 2rem 2rem 0;
+		top: 0.75rem;
+	}
 
-			.image.fit img {
-				width: 100%;
-			}
+	.image.right {
+		float: right;
+		margin: 0 0 2rem 2rem;
+		top: 0.75rem;
+	}
 
-		.image.main {
-			display: block;
-			margin: 4rem 0;
+	.image.fit {
+		display: block;
+		margin: 2.5rem 0;
+		width: 100%;
+	}
+
+		.image.fit:first-child {
+			margin-top: 0;
+		}
+
+		.image.fit img {
 			width: 100%;
 		}
 
-			.image.main:first-child {
-				margin-top: 0;
-			}
+	.image.main {
+		display: block;
+		margin: 4rem 0;
+		width: 100%;
+	}
 
-			.image.main img {
-				width: 100%;
-			}
+		.image.main:first-child {
+			margin-top: 0;
+		}
+
+		.image.main img {
+			width: 100%;
+		}
 
 		@media screen and (max-width: 736px) {
 
