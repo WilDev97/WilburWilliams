@@ -2596,6 +2596,10 @@ input, select, textarea {
 #profile_image {
 	border-radius: 99%;
 }
+#project_image {
+	border-radius: 99%;
+
+}
 
 .image {
 	border: 0;
