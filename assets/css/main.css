@@ -31,7 +31,10 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-}
+	background-color: black;
+	color: white;
+	}
+
 
 ol, ul {
 	list-style: none;
@@ -70,6 +73,10 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+.bio {
+	background-color: black;
+	color: white;
 }
 
 /* Basic */
