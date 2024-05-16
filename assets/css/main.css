@@ -74,7 +74,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-.bio {
+/* .bio {
 	background-color: black;
 	color: white;
 }
@@ -2602,6 +2602,7 @@ input, select, textarea {
 
 #profile_image {
 	border-radius: 99%;
+	height: 25rem;
 }
 #project_image {
 	border-radius: 99%;
